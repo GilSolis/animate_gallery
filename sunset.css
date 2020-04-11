@@ -1,0 +1,71 @@
+body {
+    margin: 0 0 0 0;
+    background-color: #2c3e50;
+    animation: sky;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+.grass {
+    background: green;
+    height: 600px;
+    width: 100%;
+    position: absolute;
+}
+
+.sun {
+    background: #f1c40f;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation: sun;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sky {
+    0% {
+        background-color: pink;
+    }
+    30% {
+        background-color: lightskyblue;
+    }
+    70% {
+        background-color: lightskyblue;
+    }
+    80% {
+        background-color: orange;
+    }
+    90% {
+        background-color: darkorange;
+    }
+    95% {
+        background-color: rgb(175, 70, 0);
+    }
+    100% {
+        background-color: #692c04;
+    }
+}
+
+@keyframes sun {
+    0% {
+        transform: translate(-200px, 200px);
+    }
+    25% {
+        transform: translate(330px, 0px);
+        background: #f1c40f;
+    }
+    50% {
+        transform: translate(860px, -50px);
+    }
+    75% {
+        transform: translate(1390px, 0px);
+        background: #f1c40f;
+    }
+    100% {
+        transform: translate(1920px, 200px);
+        background: #e74c3c;
+    }
+}
