@@ -123,4 +123,37 @@ p {
     }
 }
 
-p {}
+#redbox {
+    /* display: flex; */
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+@keyframes strobe {
+    0% {
+        color: white;
+        background-color: black;
+    }
+    50% {
+        color: black;
+        background-color: white;
+    }
+    100% {
+        color: white;
+        background-color: black;
+    }
+}
+
+#strobe {
+    animation: strobe;
+    animation-duration: .1s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    /* justify-content: center;
+    align-items: auto;*/
+    background-color: green;
+    /* text-align: center; */
+    padding: 40%
+}
