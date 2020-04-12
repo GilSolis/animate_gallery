@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 .loader {
     margin: auto;
     border: 16px solid lightgray;
