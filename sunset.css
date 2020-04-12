@@ -61,11 +61,11 @@ body {
         transform: translate(860px, -50px);
     }
     75% {
-        transform: translate(1390px, 0px);
+        transform: translate(1000px, 0px);
         background: #f1c40f;
     }
     100% {
-        transform: translate(1920px, 200px);
+        transform: translate(1200px, 200px);
         background: #e74c3c;
     }
 }
